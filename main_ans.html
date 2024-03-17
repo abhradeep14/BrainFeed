@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Answer</title>
+    <link rel="stylesheet" href="main_ans.css">
+</head>
+<body>
+    <div class="container">
+        <div class="question-box">
+            <h2>Question</h2>
+            <p>16.45,15.2,13.7,11.95.9.95 क्रमाने येणारे पद</p>
+        </div>
+        <div class="answer-box">
+            <h2>Answer</h2>
+            <textarea id="answer-text" rows="5" placeholder="Enter your answer here..."></textarea>
+            <p class="explanation">Explanation:</p>
+            <textarea id="explanation-text" rows="3" placeholder="Explain your answer..."></textarea>
+            <div class="formatting-buttons">
+                <button id="bold-btn">Bold</button>
+                <button id="italic-btn">Italic</button>
+            </div>
+            <div class="upload-section">
+                <p>Attach Document (Optional):</p>
+                <input type="file" id="document-upload">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <button id="submit-btn">Submit Answer</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
