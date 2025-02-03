@@ -24,7 +24,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome!</h1>');
+  res.send('Welcome to BrainFeed!!!!!');
 });
 
 // Login routes for students and professors (combined)
